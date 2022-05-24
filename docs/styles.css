@@ -1,4 +1,39 @@
-h2{color:blue;}
-p {color:brown;}
-h1{color:tomato}
-h3{color:red}
+.grid-container {
+    display: grid;
+    grid-template-columns: 160px auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 0, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+
+  .heading {
+      grid-column: 1/4; font-size: 30px;
+  }
+
+  .sidebar {
+      grid-row: 2/5;font-size: 18px;
+  }
+
+  .intro {
+      grid-column: 2; font-size: 20px;
+  }
+
+  .pic {
+      grid-column: 3; 
+  }
+
+  .events {
+      grid-column: 2/4; font-size: 20px;
+  }
+
+  .weather {
+      grid-column: 2/4;
+  }
+
