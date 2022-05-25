@@ -34,6 +34,12 @@
   }
 
   .weather {
-      grid-column: 2/4;
+    grid-column: 2/4;
+      display: grid;
+      grid-row-gap: 5px;
+      grid-column-gap: 15px;
+      background-color: #a3015a;
+      padding: 30px;
+      grid-template-columns: auto auto auto auto auto auto auto;
+      
   }
-
